@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style_5.css">
+    <script src="https://kit.fontawesome.com/50c3edb0d4.js" crossorigin="anonymous"></script>
+    <script src="scripts/your-script.js"></script>
+
+
+
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="https://res.cloudinary.com/ddlwzibad/image/upload/v1732889616/Screenshot_2024-11-29_194309_cu7aww.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span>Soumay</span><br>Dhrub From India</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://res.cloudinary.com/ddlwzibad/image/upload/v1732273341/Picsart_24-11-22_16-29-06-813_dwgut1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a skilled developer specializing in Python, Java, MySQL, Power BI, and front-end technologies. Currently enrolled in NxtWave’s CCBP 4.0 Academy, I am mastering full-stack development with a focus on 4.0 technologies through hands-on projects and real-world coding challenges.
+
+                    My professional experience includes roles as a Frontend Developer at CodTech IT Solutions and Teaching Assistant at NxtWave, where I supported debugging, peer mentoring, and collaborative problem-solving.
+                    
+                    Pursuing a B.Tech in Computer Science and Engineering at ICFAI University, Jaipur, I have also earned certifications in MongoDB and Responsive Web Development. Proficient in HTML5, CSS, and Bootstrap, I aim to create impactful, user-centric solutions.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Python Development</span><br>Data analysis</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>oct,2024 - Nov,2025</span><br>Internship at CODTECH IT Solutions.</li>
+                        <li><span>Feb,2024 - May,2024</span><br>Teaching Assistant at NxtWave.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-2027</span><br>B.Tech(cse) from The ICFAI University, Jaipur</li>
+                        <li><span>2023</span><br>Student at NxtWave ccbp 4.0 Academy</li>
+                        <li><span>2022</span><br>12th from Red Rose Public School, Deoghar(Jharkhand)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I offer professional web design services focused on creating visually engaging, user-friendly, and responsive websites. My expertise includes crafting intuitive layouts, ensuring seamless functionality across devices, and aligning designs with brand identity. With attention to user experience (UX), interface design (UI), and SEO optimization, I deliver websites that enhance engagement, build credibility, and drive business growth.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>I offer UI/UX design services focused on creating intuitive, user-centric interfaces that enhance engagement and deliver seamless user experiences. My approach combines aesthetic design, functionality, and accessibility to craft digital products that align with your brand and meet user needs effectively.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Python Developer</h2>
+                <p>I provide Python development services specializing in building efficient, scalable, and robust applications. My expertise includes developing web applications, data analysis tools, and automation scripts tailored to business needs. With a focus on clean code and performance, I deliver solutions that enhance productivity and drive results.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://res.cloudinary.com/ddlwzibad/image/upload/v1732890091/Screenshot_2024-06-26_094856_xzalbc.png">
+                <div class="layer">
+                    <h3>Food munch website</h3>
+                    <p>Food Munch is static website which showcase my static website project.</p>
+                    <a href="http://aws-workshop-nxtwave-soumaydhrub.s3-website.ap-south-1.amazonaws.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://res.cloudinary.com/ddlwzibad/image/upload/v1732890216/Screenshot_2024-01-30_234001_imncua.png">
+                <div class="layer">
+                    <h3>Dashboard-Realmart analysis</h3>
+                    <p>The Dashboard-Realmart is design to analyze the productivity of Realmart.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://res.cloudinary.com/ddlwzibad/image/upload/v1732890967/Screenshot_2024-11-29_200540_mz2c8f.png">
+                <div class="layer">
+                    <h3>Online Technative website </h3>
+                    <p>This website made with the help of AI in small time period.</p>
+                    <a href="https://technative.wegic.app/home"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> soumaydhruv@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9262326741</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="https://res.cloudinary.com/ddlwzibad/image/upload/v1732891514/Screenshot_2024-11-29_201451_orf3ii.png" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <p id="msg"></p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Soumay Dhrub. <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    // URL of the Google Apps Script web app
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyzmjnrB1b3yRVY3-PNxep0fnaPDCFD8ZoPzRF9z1zkE01trlu5S63Pil6LbCmYrC_6Sw/exec'; 
+  
+    // Reference to the form and message container
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+  
+    // Add a submit event listener to the form
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault(); // Prevent the default form submission behavior
+  
+      try {
+        // Send form data using fetch
+        const response = await fetch(scriptURL, {
+          method: 'POST',
+          body: new FormData(form),
+        });
+  
+        // Handle successful submission
+        if (response.ok) {
+          msg.textContent = "Message sent successfully";
+          setTimeout(() => {
+            msg.textContent = ""; // Clear message after 2 seconds
+          }, 2000);
+          form.reset(); // Reset the form
+        } else {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+      } catch (error) {
+        // Handle errors
+        console.error('Error!', error);
+        msg.textContent = "An error occurred. Please try again.";
+        setTimeout(() => {
+          msg.textContent = ""; // Clear message after 2 seconds
+        }, 5000);
+      }
+    });
+  </script>
+  
+</body>
+</html>
